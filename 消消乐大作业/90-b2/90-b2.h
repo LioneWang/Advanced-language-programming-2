@@ -1,0 +1,51 @@
+
+void xinshuzu(int row, int line,int a[][8]);
+void input(int& t, int& r);
+void input2(char& row_, int& line_,int a[][8]);
+void chazhao(char row_, int line_, int row, int line, int a[][8], char b[][8]);
+void cct_setcolor(const int bg_color, const int fg_color);
+void cct_showstr(const int X, const int Y, const char* str, const int bg_color, const int fg_color, int rpt, int maxlen);
+void cct_setcursor(const int options);
+void yansebiaoshi(int a[][8], char b[][8], int row, int line);
+int cct_getfontinfo(void);
+void cct_gotoxy(const int X, const int Y);
+void cct_getxy(int& x, int& y);
+void cct_showch(const int X, const int Y, const char ch, const int bg_color, const int fg_color, const int rpt);
+void cct_showint(const int X, const int Y, const int num, const int bg_color, const int fg_color, const int rpt);
+void chazhao_digui(char row_, int line_, int row, int line, int(*a)[8], char(*b)[8]);
+void chalei(int(*c)[8], int(*a)[8], char(*b)[8], int row, int line, const int crow, const int cline, const int row_, const int line_, char row__, int line__);
+void input3(char& z, char row_, int line_);
+void guibing(int a[][8], char b[][8], int c[][8],int row, int line, char row_, int line_);
+void jifen(int a[][8], char b[][8], int row, int line, char row_, int line_, int goal,int& allscore);
+
+void cct_cls(void);
+void input4(char& p);
+void cct_setconsoleborder(int set_cols, int set_lines, int set_buffer_cols, int set_buffer_lines);
+void cct_getconsoleborder(int& cols, int& lines, int& buffer_cols, int& buffer_lines);
+void yansebiaoshi2(int a[][8], char b[][8], int row, int line);
+void tianchong(int a[][8], int row, int line);
+void input5(char& l);
+void cct_setconsolefont(const int font_no);
+void cct_setfontsize(const char* fontname, const int high, const int width);
+int cct_getfontinfo(void);
+void dangqian_(int a[][8], int row, int line);
+void yansebiaoshi1(int a[][8], char b[][8], int row, int line);
+void xiayi(int a[][8], int row, int line);
+void jieshu();
+int max_(int a[][8], int row, int line);
+void dangqian(int a[][8], int row, int line);
+void yanse1(int a[][8], int row, int line);
+
+void kongbai(int a[][8], int row, int line);
+void kongbai2(int a[][8], int row, int line);
+void yanse2(int a[][8], int row, int line);
+void jianpan(int a[][8], char b[][8], int c[][8], int row, int line, int p);
+void baikuang(int a[][8], int i, int j);
+void heikuang(int a[][8], int i, int j);
+void jianpan2(int a[][8], char b[][8], int c[][8], int row, int line,int p,int goal,int allscore);
+void quanbai(int a[][8], int i, int j);
+void chazhao1(int row_, int line_, int row, int line, int a[][8], char b[][8]);
+void guibing1(int a[][8], char b[][8], int c[][8], int row, int line, int row_, int line_);
+void xialuo(int a[][8], int i, int j, int row, int line);
+void chongman(int a[][8], int i, int j, int row, int line,int max);
+

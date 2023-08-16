@@ -1,0 +1,19 @@
+﻿  90-b2-base.cpp
+  90-b2-console.cpp
+  90-b2-main.cpp
+  90-b2-net.cpp
+  90-b2-tools.cpp
+  cmd_console_tools.cpp
+lib_mto10_net_tools.lib(lib_mto10_net_tools.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(90-b2-base.obj 中)
+lib_mto10_net_tools.lib(lib_mto10_net_tools.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(90-b2-base.obj 中)
+lib_mto10_net_tools.lib(lib_mto10_net_tools.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+lib_md5_sha_tools.lib(lib_md5_tools.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(90-b2-base.obj 中)
+lib_md5_sha_tools.lib(lib_md5_tools.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(90-b2-base.obj 中)
+LINK : warning LNK4098: 默认库“MSVCRTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+lib_mto10_net_tools.lib(lib_mto10_net_tools.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+lib_md5_sha_tools.lib(lib_md5_tools.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+lib_mto10_net_tools.lib(lib_mto10_net_tools.obj) : error LNK2001: 无法解析的外部符号 __imp___calloc_dbg
+lib_md5_sha_tools.lib(lib_md5_tools.obj) : error LNK2001: 无法解析的外部符号 __imp___calloc_dbg
+lib_mto10_net_tools.lib(lib_mto10_net_tools.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReport
+lib_md5_sha_tools.lib(lib_md5_tools.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReport
+D:\高程C++\消消乐大作业\Release\90-b2.exe : fatal error LNK1120: 3 个无法解析的外部命令
